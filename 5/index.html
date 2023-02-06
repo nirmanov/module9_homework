@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 5</title>
+  <style>
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    input {
+      margin-bottom: 10px;
+    }
+
+    button {
+      margin-bottom: 10px;
+    }
+
+    .photo-wrapper {
+      display: flex;
+      flex-flow: wrap;
+      flex-direction: row;
+      max-width: 600px
+    }
+
+    img {
+      max-width: 800px;
+      margin-bottom: 20px;
+    }
+  </style>
+  <script defer src="5.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <input id="page" placeholder="Введите номер страницы">
+
+    <input id="limit" placeholder="Введите лимит">
+
+    <button>Запрос</button>
+
+    <span></span>
+
+  </div>
+  <div class="photo-wrapper"></div>
+</body>
+
+</html>
